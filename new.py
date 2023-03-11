@@ -357,12 +357,12 @@ with tab2:
      #   st.caption("There is need to change your one of the inning_team to get the team scorecard ")
     
     try:
-        if inn_1!=inn_2:
-            st.write("")
-    except: 
         if inn_1==inn_2:
             st.subheader("You have selected both the team same")
-            st.caption("There is need to change your one of the inning_team to get the team scorecard ")
+            st.caption("There is need to change your one of the inning_team to get the team scorecard ")       
+    except:
+        st.write("Done")
+
         
     
     
