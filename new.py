@@ -358,8 +358,8 @@ with tab2:
     
     try:
         if inn_1==inn_2:
-            st.subheader("You have selected both the team same")
-            st.caption("There is need to change your one of the inning_team to get the team scorecard ")       
+            st.subheader("You have selected both the team same🤨")
+            st.info("There is need to change your one of the inning_team to get the team scorecard ")       
     except:
         st.write("Done")
 
