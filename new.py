@@ -353,8 +353,8 @@ with tab2:
         inn_2=st.selectbox("2nd Inning",bowlingt)
         # st.write("Mumbai Indians")
     if inn_1==inn_2:
-        st.subheader("please change your Inning_2 team")
-        
+        st.subheader("You have selected both the team same")
+        st.caption("There is need to change your one of the inning_team to get the team scorecard ")
         
     def filter1(bt,bl):
         tud=filter_year["batting_team"]==bt
