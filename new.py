@@ -351,7 +351,11 @@ with tab2:
         st.header(f"( Vs )")          
     with ccc3:
         inn_2=st.selectbox("2nd Inning",bowlingt)
-        # st.write("Mumbai Indians")          
+        # st.write("Mumbai Indians")
+    if inn_1==inn_2:
+        st.subheader("please change your Inning_2 team")
+        
+        
     def filter1(bt,bl):
         tud=filter_year["batting_team"]==bt
         tug=filter_year["bowling_team"]==bl
