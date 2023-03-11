@@ -41,7 +41,7 @@ st.image(edited,use_column_width=True)
 # choice = st.sidebar.selectbox("Menu",menu)
 
 
-tab1,tab2,tab3=st.tabs(['OVERVIEW','SCORECARD','INFO'])
+tab1,tab2,tab3=st.tabs(['OVERVIEW','SCORECARD','PREDICTION'])
 with tab1:
     team_option=matches['team1'].unique().tolist()
     year_option=matches['year'].unique().tolist()
