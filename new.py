@@ -37,8 +37,8 @@ st.image(edited,use_column_width=True)
 
 
 
-menu =['Home','Search','About']
-choice = st.sidebar.selectbox("Menu",menu)
+# menu =['Home','Search','About']
+# choice = st.sidebar.selectbox("Menu",menu)
 
 
 tab1,tab2,tab3=st.tabs(['OVERVIEW','SCORECARD','INFO'])
