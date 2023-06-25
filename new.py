@@ -375,7 +375,7 @@ with tab2:
         tuv=filter_year["bowling_team"]==bt
         tuf=filter_year[tud & tug]
         tuw=filter_year[tuu & tuv]
-        tuz=tuf.append(tuw)
+        tuz=tuf._append(tuw)
         return(tuz)
 
     sor=filter1(inn_1,inn_2)
